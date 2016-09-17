@@ -9,5 +9,5 @@ git log -p -2
 git branch
 git branch -b test
 git branch -b test origin/test
-# Удалить ветку из удаленного репозитория:
+<h3>Удалить ветку из удаленного репозитория</h3>
 git push origin :test
