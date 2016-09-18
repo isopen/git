@@ -6,7 +6,7 @@ git push origin branch
 git reset --soft HEAD^
 <h4>Удалить коммит</h4>
 git reset --hard HEAD^
-<h4>Посмотреть чьи изменения</h4>
+<h4>Посмотреть автора изменений</h4>
 git log -L 2484,2501:test/test.rb
 <h4>Логирование до определенного уровня</h4>
 git log -p -2
