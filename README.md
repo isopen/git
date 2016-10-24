@@ -13,8 +13,8 @@ git log -p -2
 <h4>Список веток</h4>
 git branch
 <h4>Создать ветку</h4>
-git branch -b test
+git checkout -b test
 <h4>Выгрузить ветку из удаленного репозитория</h4>
-git branch -b test origin/test
+git checkout -b test origin/test
 <h4>Удалить ветку из удаленного репозитория</h4>
 git push origin :test
