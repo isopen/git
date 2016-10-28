@@ -19,5 +19,5 @@ git checkout -b test origin/test
 <h4>Удалить ветку из удаленного репозитория</h4>
 git push origin :test
 <h4>Перенос коммита из ветки в ветку</h4>
-git cherry-pick 43b3445cdcd
+git cherry-pick 43b3445cdcd<br>
 gt cherry-pick -n 43b3445cdcd
