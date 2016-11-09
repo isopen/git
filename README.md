@@ -6,6 +6,8 @@ git push origin branch
 git reset --soft HEAD^
 <h4>Удалить коммит</h4>
 git reset --hard HEAD^
+<h4>Отмена проиндексированных изменений перед коммитом</h4>
+git reset HEAD test.py
 <h4>Посмотреть автора изменений</h4>
 git log -L 2484,2501:test/test.rb
 <h4>Логирование до определенного уровня</h4>
